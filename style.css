@@ -1,5 +1,6 @@
 *{
 margin:auto
+box-sizing: border-box;
 }
 .boxhead{
 background-image: url("pattern.png");
