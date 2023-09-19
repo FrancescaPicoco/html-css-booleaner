@@ -40,24 +40,43 @@ font-weight: bold;
 strong{
 background-color: rgb(222, 222, 82);
 }
-.ullist{
-margin-left: 0;
+ul{
+padding-left: 16px;
 }
 thead>tr{
 background-color: rgb(58, 103, 201);
 }
-th{
-width: calc(100% / 3 -4);
+.cella{
+width:25%;
+text-align: center;
 }
 .colored{
 background-color: rgb(128, 206, 245);
 }
 table{
-padding:50px;
+padding:15px;
+border-spacing: 0;
 }
 h2{
 color: gray;
 }
-.frstp, .ullist , .lastp , h2{
+.frstp , .ullist , .lastp , h2{
 padding-top:25px;
+}
+.monitor{
+width: 312px;
+height: 208px;
+background-image: url(img/monitor.jpg);
+}
+.graph{
+    width: 312px;
+    height: 208px;
+    background-image: url(img/graph.jpg);
+}
+.monitor , .graph{
+margin:10px;
+}
+h3{
+color:white;
+padding-left:35px;
 }
